@@ -19,6 +19,13 @@ body {
    align-items: center;
 }
 
+hr {
+   border: 1px solid #d1d1d1;
+   clear: both;
+   display: block;
+   width: 96%;
+}
+
 /*----------------------------------
  Top Banner Section Style
  -----------------------------------*/
@@ -93,11 +100,18 @@ body {
 /*-------------------
  Latest News Style
  -------------------*/
+
+.news-header-title {
+   font-size: 2.3rem;
+}
+
 .all-latest-news {
+   background-color: rgba(250, 235, 215, 0.13);
    padding-right: 5%;
    padding-left: 5%;
    padding-top: 2%;
    padding-bottom: 5%;
+   margin-top: 5%;
 }
 
 .news {
@@ -118,4 +132,30 @@ body {
 
 .news-info:hover a img {
    transform: scale(1.1);
+}
+
+/*-------------------
+ Latest Videos Style
+ -------------------*/
+.latest-videos {
+}
+.video-header-title {
+   padding-left: 2%;
+   font-size: 2.3rem;
+}
+
+.first-video {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 2%;
+}
+.videos {
+   display: grid;
+   display: flex;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 5%;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 5%;
 }
