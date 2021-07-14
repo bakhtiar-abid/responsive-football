@@ -101,10 +101,6 @@ hr {
  Latest News Style
  -------------------*/
 
-.news-header-title {
-   font-size: 2.3rem;
-}
-
 .all-latest-news {
    background-color: rgba(250, 235, 215, 0.13);
    padding-right: 5%;
@@ -114,6 +110,9 @@ hr {
    margin-top: 5%;
 }
 
+.news-header-title {
+   font-size: 2.3rem;
+}
 .news {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -137,8 +136,7 @@ hr {
 /*-------------------
  Latest Videos Style
  -------------------*/
-.latest-videos {
-}
+
 .video-header-title {
    padding-left: 2%;
    font-size: 2.3rem;
@@ -157,5 +155,21 @@ hr {
    grid-column-gap: 5%;
    justify-content: center;
    align-items: center;
-   margin-bottom: 5%;
+   margin-bottom: 6%;
+}
+
+/*-------------------
+ Footer Section Style
+ -------------------*/
+footer {
+   text-align: center;
+}
+.social-link {
+   margin: 20px 20px;
+}
+.social-link a {
+   padding-left: 20px;
+}
+footer img {
+   width: 300px;
 }
