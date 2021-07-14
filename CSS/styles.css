@@ -27,10 +27,40 @@ hr {
 }
 
 /*----------------------------------
+Navigation Bar Items
+ -----------------------------------*/
+.nav-items {
+   overflow: hidden;
+   overflow-x: hidden;
+   display: flex;
+   justify-content: space-between;
+   background-color: #2d25a0;
+}
+
+.items {
+   margin-top: 52px;
+   margin-left: 80px;
+}
+
+.items a {
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 16px;
+   padding: 36px;
+}
+
+.login-button a {
+   text-decoration: none;
+   margin-top: 42px;
+   margin-right: 123px;
+}
+
+/*----------------------------------
  Top Banner Section Style
  -----------------------------------*/
 
 .top-banner-section {
+   overflow-x: hidden;
    display: flex;
    background-color: #2d25a0;
    margin-bottom: 70px;
@@ -144,6 +174,8 @@ hr {
 }
 
 .first-video {
+   overflow: hidden;
+   overflow-x: hidden;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -181,6 +213,9 @@ footer img {
  -------------------*/
 
 @media only screen and (max-width: 688px) {
+   .body {
+      overflow-x: hidden;
+   }
    .top-banner-section {
       flex-direction: column;
       width: 100%;
