@@ -50,9 +50,14 @@ Navigation Bar Items
 }
 
 .login-button a {
+   color: #ffffff;
    text-decoration: none;
    margin-top: 42px;
    margin-right: 123px;
+}
+
+.fa-sign-in-alt {
+   padding-right: 8px;
 }
 
 /*----------------------------------
@@ -92,7 +97,9 @@ Navigation Bar Items
    text-decoration: none;
    color: #ffffff;
 }
-
+.fa-arrow-right {
+   padding-left: 8px;
+}
 .top-banner-right img {
    transition: transform 0.4s ease-in-out;
    width: 80%;
