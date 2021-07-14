@@ -65,6 +65,7 @@ Navigation Bar Items
  -----------------------------------*/
 
 .top-banner-section {
+   overflow: hidden;
    overflow-x: hidden;
    display: flex;
    background-color: #2d25a0;
@@ -220,9 +221,6 @@ footer img {
  -------------------*/
 
 @media only screen and (max-width: 688px) {
-   .body {
-      overflow-x: hidden;
-   }
    .top-banner-section {
       flex-direction: column;
       width: 100%;
@@ -239,6 +237,7 @@ footer img {
 
    .player-details,
    .news {
+      width: 100%;
       grid-template-columns: repeat(1, 1fr);
    }
    .video-responsive {
@@ -265,6 +264,7 @@ footer img {
    }
    .player-details,
    .news {
+      width: 100%;
       grid-template-columns: repeat(2, 1fr);
    }
 
